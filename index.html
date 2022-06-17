@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Tirthesh Jain</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="topnav" id="navbar">
+        <a href="index.html">&lt; Tirthesh Jain /&gt;</a>
+        <a href="#contact">Contact</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="navbarToggle()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+
+    <section id="welcome-section">
+        <div id="welcome-text">
+            <img src="images/profile-photo.jpg" alt="">
+            <h1>Hey I am Tirthesh Jain</h1>
+            <h3>Learner | Programmer | Web Developer | Explorer</h3>
+        </div>
+    </section>
+
+    <section id="about">
+        <header class="header">About</header>
+        <p class="text-style">
+            Hi, I am an undergraduate student of Computer Science & Engineering. I am a young tech enthusiast, avid
+            learner and explorer with an innate passion for innovation and like coming up with unique and creative
+            solutions to a given problem. I consider myself proficient in Data Structures and Algorithms, C++, SQL. I
+            like coding and solving puzzles. Passionate about programming and enthusiastic to learn new technologies in
+            the field of computer science.
+        </p>
+    </section>
+
+    <section id="education">
+        <header class="header">Education</header>
+        <div class="timeline">
+            <div class="container left">
+                <div class="content text-style">
+                    <h2>2023</h2>
+                    <p>B.Tech in Computer Science & Engineering </p>
+                    <p>College Of Technology & Engineering</p>
+                    <p>OGPA : 8.03/10</p>
+                </div>
+            </div>
+            <div class="container right">
+                <div class="content text-style">
+                    <h2>2019</h2>
+                    <p>XII CBSE</p>
+                    <p>Mahaveer Public Sr. Sec. School</p>
+                    <p>Percentage : 93.40%</p>
+                </div>
+            </div>
+            <div class="container left">
+                <div class="content text-style">
+                    <h2>2017</h2>
+                    <p>X CBSE</p>
+                    <p>Mahaveer Public Sr. Sec. School</p>
+                    <p>CGPA : 10/10</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <header class="header">Skills</header>
+        <div class="text-center">
+            <img src="https://www.freeiconspng.com/uploads/html5-icon-1.png" width="150" alt="Html5 logo">
+            <img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-css-logo-png-transparent-svg-vector-bie-supply-9.png"
+                width="200" alt="css logo">
+            <img src="https://www.freepnglogos.com/uploads/javascript-png/javascript-levis-logo-transparent-23.png"
+                width="200" alt="javascript logo">
+            <img src="https://www.freeiconspng.com/uploads/c--logo-icon-0.png" width="200" alt="c++">
+        </div>
+    </section>
+
+    <section id="projects">
+        <header class="header">Projects</header>
+        <div class="flex-container">
+            <div class="project-title">
+                <img src="https://codepen.io/tj_24/pen/XWMyWqd/image/small.png" alt="tribute page">
+                <p class="text-center">
+                    Created a tribute webpage (Subject of tribute page: APJ Abdul Kalam) using HTML & CSS.
+                </p>
+                <a href="https://codepen.io/tj_24/full/XWMyWqd" target="_blank">Tribute Page</a>
+            </div>
+            <div class="project-title">
+                <img src="https://codepen.io/tj_24/pen/QWpJmXX/image/small.png" alt="survey form">
+                <p class="text-center">
+                    Created a survey form (with HTML5 validation) using HTML & CSS.
+                </p>
+                <a href="https://codepen.io/tj_24/full/QWpJmXX" target="_blank">Survey Form</a>
+            </div>
+            <div class="project-title">
+                <img src="https://codepen.io/tj_24/pen/WNpYYGK/image/small.png" alt="Java documentation">
+                <p class="text-center">
+                    Created a responsive technical documentation webpage. A technical documentation of JAVA using HTML &
+                    CSS. The webpage has a menu sections that helps to navigate to different sections of the webpage.
+                </p>
+                <a href="https://codepen.io/tj_24/full/WNpYYGK" target="_blank">Technical Documentation Page</a>
+            </div>
+            <div class="project-title">
+                <img src="https://codepen.io/tj_24/pen/QWpzqKG/image/small.png" alt="Product landing page">
+                <p class="text-center">
+                    Created a responsive product landing webpage (iEducate) using HTML, CSS & JavaScript with hamburger
+                    menu & sticky navbar.
+                </p>
+                <a href="https://codepen.io/tj_24/full/QWpzqKG" target="_blank">Product Landing Webpage</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <header class="header">Contact</header>
+        <div class="flex-container">
+            <div id="form">
+                <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your name">
+                <input class="form-input" type="email" name="email" id="email" placeholder="Enter Your email">
+                <textarea class="form-input" name="text" id="text" cols="30" rows="5"
+                    placeholder="Suggestion"></textarea>
+                <button class="btn">Send</button>
+            </div>
+            <div id="details">
+                <div class="row">
+                    <span id="icon" class="fa fa-map-marker"></span>
+                    <span>Udaipur, Rajasthan</span>
+                </div>
+                <div class="row">
+                    <span id="icon" class="fa fa-phone"></span>
+                    <span>+91 7425948959</span>
+                </div>
+                <div class="row">
+                    <span id="icon" class="fa fa-envelope"></span>
+                    <span>tirtheshjain2408@gmail.com</span>
+                </div>
+                <div class="row">
+                    <span id="icon" class="fa fa-free-code-camp"></span>
+                    <span><a href="https://www.freecodecamp.org/tj_24" target="_blank"
+                            id="profile-link">freeCodeCamp</a></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <footer>
+        <p class="text-center">
+            Copyright &copy; 2022 - Tirthesh Jain - All rights reserved
+        </p>
+    </footer>
+    <button onclick="topFunction()" id="upBtn" class="btn"><i class="fa fa-arrow-circle-up"></i></button>
+    <script src="index.js"></script>
+</body>
+
+</html>
